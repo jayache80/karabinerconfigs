@@ -1,0 +1,31 @@
+{
+  "title": "Option + Shift + Esc to Option + Shift + `",
+  "rules": [
+    {
+      "description": "Option + Shift + Esc to Option + Shift + `",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "escape",
+            "modifiers": {
+              "mandatory": [
+                "left_option",
+                "left_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "grave_accent_and_tilde",
+              "modifiers": [
+                "left_option",
+                "left_shift"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

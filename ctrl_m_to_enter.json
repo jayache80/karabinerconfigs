@@ -1,0 +1,26 @@
+{
+  "title": "Ctrl + M to Enter",
+  "rules": [
+    {
+      "description": "Ctrl + M to Enter",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "m",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "return_or_enter"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

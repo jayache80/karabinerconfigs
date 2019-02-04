@@ -1,0 +1,26 @@
+{
+  "title": "Ctrl + [ to Esc",
+  "rules": [
+    {
+      "description": "Ctrl + [ to Esc",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "open_bracket",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "escape"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
