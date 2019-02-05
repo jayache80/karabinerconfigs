@@ -9,7 +9,7 @@ cd karabinerconfigs
 
 Put soft links in your Karabiner installation's config directory to these configs:
 ```
-for cfg in *.json; do ln -s "${PWD}/${cfg}" "~/.config/karabiner/assets/complex_modifications"; done
+for cfg in *.json; do ln -s "${PWD}/${cfg}" "${HOME}/.config/karabiner/assets/complex_modifications"; done
 ```
 
 Use them by selecting the Karabiner menu item -> Preferences -> Complex
